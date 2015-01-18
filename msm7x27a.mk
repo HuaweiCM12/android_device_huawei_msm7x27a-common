@@ -24,8 +24,6 @@ DEVICE_PACKAGE_OVERLAYS += device/huawei/msm7x27a-common/overlay
 PRODUCT_AAPT_CONFIG := normal hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
-PRODUCT_TAGS += dalvik.gc.type-precise
-
 # Packages
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
@@ -39,12 +37,6 @@ PRODUCT_PACKAGES += \
     gralloc.msm7x27a \
     hwcomposer.msm7x27a \
     libtilerenderer
-
-PRODUCT_PACKAGES += \
-    librs_jni \
-    LiveWallpapers \
-    LiveWallpapersPicker \
-    VisualizationWallpapers
 
 PRODUCT_PACKAGES += \
     libmm-omxcore \
